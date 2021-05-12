@@ -1,0 +1,108 @@
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    border: 1px solid white;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 835px;
+    height: 700px;
+    background-position: center;
+}
+.nav ul{
+    background-color: rgb(166,255,0);
+    position:fixed;
+    width: -webkit-fill-available;
+    border: tomato 3px dotted;
+}
+.nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav ul li:hover{
+    background-color: green;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: yellow;
+    background-color: rgb(68,0,124);
+    transition: 0.6s;
+    border-radius: 20px;
+}
+.nav ul button{
+    float: right;
+    margin: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.nav ul button:hover{
+    background-color: navy;
+    color: white;
+}
+.all{
+    background-image: linear-gradient(white,yellow,rgb(0,217,255));
+    height: auto;
+}
+.life, .works, .noble, .songs{
+    margin: auto;
+    padding: 10px;
+    width: 1144px;
+    background-color: rgba(217,255,179,0.5);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    overflow: auto;
+}
+.heading{
+    color: brown;
+    text-decoration: underline;
+    font-family: 'Itim', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#lifeimage{
+    float: right;
+    border-radius: 100px;
+    margin: 10px;
+}
+.para{
+    font-family: 'Noto Serif',serif;
+}
+#lifeimage2{
+    height: 284px;
+    float: left;
+    padding: 27px;
+}
+.songs-list li{
+    text-align: center;
+    border: ;
+}
+.songs-list li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: red;
+}
+.songs-list li a:hover{
+    text-decoration: underline;
+}
+.credit a{
+    text-decoration: none;
+    color: royalblue;
+}
+.credit{
+    text-align: center;
+    border: red 2px solid;
+}
